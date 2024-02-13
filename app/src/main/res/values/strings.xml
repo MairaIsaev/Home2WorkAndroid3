@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Home2WorkAndroid3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="firs_icon">Добавить\n</string>
+    <string name="name">name\n</string>
+    <string name="second_icon">Добавить\n</string>
+    <string name="is_name">name_is</string>
+</resources>

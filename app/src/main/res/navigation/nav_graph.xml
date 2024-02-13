@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/animeSecondFragment">
+
+    <fragment
+        android:id="@+id/animeSecondFragment"
+        android:name="com.example.home2workandroid3.ui.fragment.SecondFragment"
+        android:label="fragment_anime_second"
+        tools:layout="@layout/fragment_anime_second" >
+        <action
+            android:id="@+id/action_animeSecondFragment_to_firstFragment"
+            app:destination="@id/firstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.home2workandroid3.ui.fragment.FirstFragment"
+        android:label="FirstFragment" >
+        <action
+            android:id="@+id/action_firstFragment_to_animeSecondFragment"
+            app:destination="@id/animeSecondFragment" />
+    </fragment>
+</navigation>
